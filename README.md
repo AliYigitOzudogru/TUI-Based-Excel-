@@ -29,7 +29,7 @@ This is a feature-rich console application that simulates a spreadsheet environm
 - .NET SDK (any version supporting C#)
 - Terminal/Command Prompt
 
-#### Installation
+#### Installation & Running
 
 1. Clone the repository:
 ```bash
@@ -37,17 +37,21 @@ git clone https://github.com/AliYigitOzudogru/TUI-Based-Excel-Program.git
 cd TUI-Based-Excel-Program
 ```
 
-2. Compile the program:
+2. **Option A - Using Visual Studio / Rider / VS Code:**
+   - Open the `.cs` file in your IDE
+   - Press F5 or click Run/Debug
+   - The console application will start
+
+3. **Option B - Using .NET CLI:**
 ```bash
-csc Program.cs
+dotnet run
 ```
 
-3. Run the application:
+4. **Option C - Manual Compilation:**
 ```bash
-Program.exe
+csc YourFileName.cs
+./YourFileName.exe
 ```
-
-Or use your preferred IDE (Visual Studio, Rider, VS Code).
 
 ### 📖 Operations Guide
 
@@ -280,7 +284,7 @@ C# temel kavramlarıyla oluşturulmuş, zengin özelliklere sahip bir konsol uyg
 - .NET SDK (C# destekleyen herhangi bir sürüm)
 - Terminal/Komut İstemi
 
-#### Kurulum
+#### Kurulum & Çalıştırma
 
 1. Depoyu klonlayın:
 ```bash
@@ -288,17 +292,21 @@ git clone https://github.com/AliYigitOzudogru/TUI-Based-Excel-Program.git
 cd TUI-Based-Excel-Program
 ```
 
-2. Programı derleyin:
+2. **Seçenek A - Visual Studio / Rider / VS Code Kullanarak:**
+   - `.cs` dosyasını IDE'nizde açın
+   - F5'e basın veya Run/Debug'a tıklayın
+   - Konsol uygulaması başlayacak
+
+3. **Seçenek B - .NET CLI Kullanarak:**
 ```bash
-csc Program.cs
+dotnet run
 ```
 
-3. Uygulamayı çalıştırın:
+4. **Seçenek C - Manuel Derleme:**
 ```bash
-Program.exe
+csc DosyaAdiniz.cs
+./DosyaAdiniz.exe
 ```
-
-Veya tercih ettiğiniz IDE'yi kullanın (Visual Studio, Rider, VS Code).
 
 ### 📖 İşlem Kılavuzu
 
